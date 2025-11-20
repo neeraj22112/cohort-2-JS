@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "helvetica neue";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+main .card {
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  background-color: white;
+}
+main .card div {
+  position: relative;
+  overflow: hidden;
+}
+main .card div img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+main .card div i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 90px;
+  opacity: 0;
+  text-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+  background-image: url("https://t3.ftcdn.net/jpg/01/14/77/58/360_F_114775804_4yfG9qbKp1NlF1RLo4MUlGIVj9MWhnnc.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transform: translate(-50%, -50%) scale(0) rotate(-60deg);
+  transition: all cubic-bezier(0.65, 1, 0.77, 1.44) 0.4s;
+}
+main .card h2 {
+  font-size: 30px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
