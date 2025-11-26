@@ -45,7 +45,7 @@ body main section .allreels .reels {
   scroll-snap-align: start;
   scroll-snap-stop: always;
 }
-body main section .allreels .reels img {
+body main section .allreels .reels video {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -114,6 +114,9 @@ body main section .allreels .reels .right div h4 {
 body main section .allreels .reels .right div h4 i {
   font-size: 25px;
   font-weight: 500;
+}
+body main section .allreels .reels .right div h4 .love {
+  color: red;
 }
 body main section .allreels .reels .right div h6 {
   font-size: 15px;

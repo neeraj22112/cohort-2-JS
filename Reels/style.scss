@@ -52,7 +52,7 @@ body {
           scroll-snap-align: start;
           scroll-snap-stop: always;
 
-          img {
+          video {
             height: 100%;
             width: 100%;
             object-fit: cover;
@@ -128,6 +128,9 @@ body {
                 i {
                   font-size: 25px;
                   font-weight: 500;
+                }
+                .love {
+                  color: red;
                 }
               }
               h6 {
