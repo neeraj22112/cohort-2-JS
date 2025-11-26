@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+body main {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right bottom, rgb(26, 26, 26), rgb(30, 30, 30), black);
+  padding: 20px;
+}
+body main section {
+  height: 100%;
+  width: 350px;
+  background-color: black;
+  border-radius: 10px;
+  margin: auto;
+}
+body main section .allreels {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+body main section .allreels .reels {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+body main section .allreels .reels img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main section .allreels .reels .bottom {
+  padding: 25px 20px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.096), rgba(0, 0, 0, 0.946));
+  position: absolute;
+  bottom: 0;
+}
+body main section .allreels .reels .bottom .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+body main section .allreels .reels .bottom .user img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main section .allreels .reels .bottom .user h4 {
+  font-size: 15px;
+  font-weight: 500;
+}
+body main section .allreels .reels .bottom .user button {
+  padding: 2px 4px;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+body main section .allreels .reels .bottom .user button:active {
+  scale: 0.95;
+}
+body main section .allreels .reels .bottom h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+body main section .allreels .reels .right {
+  width: 40px;
+  position: absolute;
+  padding: 25px;
+  right: 0;
+  bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+body main section .allreels .reels .right div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main section .allreels .reels .right div h4 {
+  cursor: pointer;
+}
+body main section .allreels .reels .right div h4 i {
+  font-size: 25px;
+  font-weight: 500;
+}
+body main section .allreels .reels .right div h6 {
+  font-size: 15px;
+  font-weight: 500;
+}
+body main section .allreels::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
