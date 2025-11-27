@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+:root {
+  --x: 400px;
+  --y: 400px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: radial-gradient(300px at var(--x) var(--y), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.952));
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}/*# sourceMappingURL=style.css.map */
