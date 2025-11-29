@@ -47,7 +47,7 @@ body {
   background: linear-gradient(black) padding-box,
     conic-gradient(from var(--rotate), black, #0bf20c, black) border-box;
   border: 5px solid rgba(255, 255, 255, 0);
-  animation: effect 5s infinite;
+  animation: effect 3s infinite;
 }
 .img {
   width: 100%;
