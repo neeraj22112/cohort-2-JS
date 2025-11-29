@@ -43,12 +43,24 @@ body {
   gap: 10px;
   text-align: center;
   border-radius: 15px;
-  box-shadow: 0 0 50px #299829;
+  box-shadow: 0 0 0px #0bf20c;
   background: linear-gradient(black) padding-box,
     conic-gradient(from var(--rotate), black, #0bf20c, black) border-box;
-  border: 5px solid rgba(255, 255, 255, 0);
+  border: 0px solid rgba(255, 255, 255, 0);
   animation: effect 3s infinite;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+  transition: all 0.3s ease-in linear;
+  text-shadow: 0 0 0px #0bf20c;
 }
 .img {
   width: 100%;
+}
+
+.card:hover {
+  border-width: 5px;
+  animation-play-state: running;
+  box-shadow: 0 0 50px #0bf20c;
+  color: #0bf20c;
+  text-shadow: 0 0 10px #0bf20c;
 }
